@@ -162,6 +162,48 @@ a:hover
     text-decoration: underline;
 }
 
+/* CV Download Button */
+.download-btn 
+{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 12px 20px;
+    margin-top: 15px;
+
+    background: linear-gradient(135deg, #4f46e5, #6366f1);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(79, 70, 229, 0.25);
+
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.download-btn:hover 
+{
+    background: linear-gradient(135deg, #4338ca, #4f46e5);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(79, 70, 229, 0.35);
+}
+
+/* Click effect */
+.download-btn:active 
+{
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2);
+}
+
+/* Optional icon styling */
+.download-btn i 
+{
+    font-size: 0.95rem;
+}
+
 /* Footer */
 footer 
 {
