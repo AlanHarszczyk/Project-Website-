@@ -218,21 +218,66 @@ footer
 /* Responsive Adjustments */
 @media (max-width: 768px) 
 {
+    /* Header */
+    header 
+    {
+        padding: 50px 15px;
+    }
 
     header h1 
     {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    header p
+    {
+        font-size: 0.95rem;
+    }
+
+    /* Navbar - compact + scrollable */
+    nav 
+    {
+        padding: 8px 5px;
+        display: flex;
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: flex-start;
     }
 
     nav a 
     {
         display: inline-block;
-        margin: 8px;
+        font-size: 0.85rem;
+        margin: 0 10px;
+        padding: 5px 0;
+        flex: 0 0 auto;
     }
 
+    /* Main spacing */
+    main 
+    {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+
+    /* Sections */
     section 
     {
-        padding: 20px;
+        padding: 18px;
+        margin-bottom: 20px;
     }
 
+    h2 
+    {
+        font-size: 1.3rem;
+    }
+
+    /* Buttons */
+    .button,
+    .download-btn
+    {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
 }
